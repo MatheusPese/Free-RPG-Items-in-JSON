@@ -1,0 +1,16 @@
+{
+    "WoodenSword": {
+        "Type": "Weapon",
+        "DamageRange": "1-2",
+        "Attribute": "none",
+        "Durability": "10",
+        "Description": "blank"
+    },
+    "SmallPotion": {
+        "Type": "Consumable",
+        "Effect": {
+            "Type": "Cure",
+            "Speed": "Instantaneous"
+        }
+    }
+}
