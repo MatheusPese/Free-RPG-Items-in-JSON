@@ -15,7 +15,39 @@
         "Description": "blank"
     },
 
-    "SmallPotion": {
+    "SteelSword": {
+        "Type": "Weapon",
+        "DamageRange": "1-2",
+        "Attributes": ["none"],
+        "Durability": "10",
+        "Tier":"Common",
+        "Rarity":"0",
+        "Class":"1H Sword",
+        "Slots":["LeftHand", "RightHand"],
+        "Buy":10,
+        "Sell":5,
+        "Weight":"1.0",
+        "Required Level":"1",
+        "Description": "blank"
+    },
+
+    "ThunderSteelSword": {
+        "Type": "Weapon",
+        "DamageRange": "1-2",
+        "Attributes": ["Eletric"],
+        "Durability": "10",
+        "Tier":"Common",
+        "Rarity":"1",
+        "Class":"1H Sword",
+        "Slots":["LeftHand", "RightHand"],
+        "Buy":10,
+        "Sell":5,
+        "Weight":"1.0",
+        "Required Level":"1",
+        "Description": "blank"
+    },
+
+    "SmallPotionFrask": {
         "Type": "Consumable",
         "Effect": {
             "Type": "Cure",
@@ -24,7 +56,21 @@
             "Sell":"",
             "Weight":"",
             "Required Level":"1",
-            "Description": "blank",
+            "HP":10,
+            "Description": "A small frask with a liquid that cures 20 of HP",
         }
+    
+        "SmallManaFrask": {
+            "Type": "Consumable",
+            "Effect": {
+                "Type": "Mana",
+                "Speed": "Instantaneous",
+                "Buy":"",
+                "Sell":"",
+                "Weight":"",
+                "Required Level":"1",
+                "MP":5,
+                "Description": "A small frask with a liquid that cures 5 of MP"
+            }
     }
 }
