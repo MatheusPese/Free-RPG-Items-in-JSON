@@ -4,13 +4,27 @@
         "DamageRange": "1-2",
         "Attribute": "none",
         "Durability": "10",
+        "Tier":"Common",
+        "Rarity":"0",
+        "Class":"1H Sword",
+        "Slots":["LeftHand", "RightHand"],
+        "Buy":10,
+        "Sell":5,
+        "Weight":"1.0",
+        "Required Level":"1",
         "Description": "blank"
     },
+
     "SmallPotion": {
         "Type": "Consumable",
         "Effect": {
             "Type": "Cure",
-            "Speed": "Instantaneous"
+            "Speed": "Instantaneous",
+            "Buy":"",
+            "Sell":"",
+            "Weight":"",
+            "Required Level":"1",
+            "Description": "blank",
         }
     }
 }
