@@ -58,7 +58,7 @@
             "Required Level":"1",
             "HP":10,
             "Description": "A small frask with a liquid that cures 20 of HP",
-        }
+        },
     
         "SmallManaFrask": {
             "Type": "Consumable",
